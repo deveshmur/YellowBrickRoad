@@ -30,7 +30,7 @@ public class Canvas
     {
         if(canvasSingleton == null) {
             canvasSingleton = new Canvas("BlueJ Shapes Demo", 300, 300, 
-                    Color.white);
+                    Color.black);
         }
         canvasSingleton.setVisible(true);
         return canvasSingleton;
@@ -84,7 +84,7 @@ public class Canvas
             graphic = (Graphics2D)canvasImage.getGraphics();
             graphic.setColor(backgroundColour);
             graphic.fillRect(0, 0, size.width, size.height);
-            graphic.setColor(Color.black);
+            graphic.setColor(Color.magenta);
         }
         frame.setVisible(visible);
     }

@@ -22,9 +22,9 @@ public class Square
      */
     public Square()
     {
-        size = 30;
-        xPosition = 60;
-        yPosition = 50;
+        size = 40;
+        xPosition = 25;
+        yPosition = 55;
         color = "red";
         isVisible = false;
     }
